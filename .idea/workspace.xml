@@ -26,7 +26,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea23041d-e78a-4217-9d5b-3340d7e54665" name="Changes" comment="CLion config" />
+    <list default="true" id="ea23041d-e78a-4217-9d5b-3340d7e54665" name="Changes" comment="Ejercicio de listas">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio1.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +72,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "C/C++ File.ejercicio1.cpp.executor": "Run",
     "C/C++ File.prueba.cpp.executor": "Run",
     "RunOnceActivity.RadMigrateCodeStyle": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -75,6 +81,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "master",
@@ -87,7 +94,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="C/C++ File.ejercicio1.cpp">
+    <configuration name="ejercicio1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Estructura de datos" TARGET_NAME="ejercicio1.cpp" CONFIG_NAME="ejercicio1.cpp">
+      <option name="sourceFile" value="ejercicio1.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="prueba.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Estructura de datos" TARGET_NAME="prueba.cpp" CONFIG_NAME="prueba.cpp">
       <option name="sourceFile" value="prueba.cpp" />
       <method v="2">
@@ -96,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="C/C++ File.ejercicio1.cpp" />
         <item itemvalue="C/C++ File.prueba.cpp" />
       </list>
     </recent_temporary>
@@ -110,7 +124,7 @@
       <updated>1744077921230</updated>
       <workItem from="1744077923644" duration="238000" />
       <workItem from="1744078173295" duration="111000" />
-      <workItem from="1744078327987" duration="444000" />
+      <workItem from="1744078327987" duration="2754000" />
     </task>
     <task id="LOCAL-00001" summary="CLion config">
       <option name="closed" value="true" />
@@ -120,7 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744078762058</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CLion config">
+      <option name="closed" value="true" />
+      <created>1744078803906</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744078803906</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ejercicio de listas">
+      <option name="closed" value="true" />
+      <created>1744080189657</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744080189657</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +174,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CLion config" />
-    <option name="LAST_COMMIT_MESSAGE" value="CLion config" />
+    <MESSAGE value="Ejercicio de listas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio de listas" />
   </component>
 </project>

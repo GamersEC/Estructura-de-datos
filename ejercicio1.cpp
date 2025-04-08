@@ -34,5 +34,25 @@ int main() {
         cout << n << " ";
     }
     cout << endl;
+
+    // Buscar elementos dentro de la lista
+    int elemento;
+    cout << "Ingrese el elemento que desea buscar: ";
+    cin >> elemento;
+    bool encontrar_f = false;
+
+    for (int n : numeros) {
+        if (n == elemento) {
+            encontrar_f = true;
+            break;
+        }
+    }
+
+    if (encontrar_f) {
+        cout << "Elemento encontrado" << endl;
+    } else {
+        cout << "Elemento no encontrado" << endl;
+    }
+
     return 0;
 }

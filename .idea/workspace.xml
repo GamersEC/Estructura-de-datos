@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="BackendCodeEditorMiscSettings">
-    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
-    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
     <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+    <option name="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue" value="true" type="bool" />
+    <option name="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue" value="false" type="bool" />
   </component>
   <component name="CMakePresetLoader">{
   &quot;useNewFormat&quot;: true
@@ -26,10 +26,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea23041d-e78a-4217-9d5b-3340d7e54665" name="Changes" comment="Ejercicio de listas">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ea23041d-e78a-4217-9d5b-3340d7e54665" name="Changes" comment="tutoria dia jueves 24 de abril">
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ejercicio1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio1.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,52 +64,82 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2vQWkMgxIXx0U12AA4pQIy1fG97" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "C/C++ File.ejercicio1.cpp.executor": "Run",
-    "C/C++ File.prueba.cpp.executor": "Run",
-    "RunOnceActivity.RadMigrateCodeStyle": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "RunOnceActivity.west.config.association.type.startup.service": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/marcu/OneDrive - Universidad Nacional de Chimborazo/Documentos/2do Semestre/Estructura de datos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;C/C++ File.ejemplo_arreglo.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ejemplo_fila.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ejemplo_pila.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ejercicio1.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ejercicio3.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.ejericio2.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.estructuras.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;C/C++ File.prueba.cpp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/marcu/OneDrive - Universidad Nacional de Chimborazo/Documentos/2do Semestre/Estructura de datos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="C/C++ File.ejercicio1.cpp">
-    <configuration name="ejercicio1.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Estructura de datos" TARGET_NAME="ejercicio1.cpp" CONFIG_NAME="ejercicio1.cpp">
-      <option name="sourceFile" value="ejercicio1.cpp" />
+}</component>
+  <component name="RunManager" selected="C/C++ File.estructuras.cpp">
+    <configuration name="ejemplo_arreglo.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Estructura de datos" TARGET_NAME="ejemplo_arreglo.cpp" CONFIG_NAME="ejemplo_arreglo.cpp">
+      <option name="sourceFile" value="ejemplo_arreglo.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="prueba.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Estructura de datos" TARGET_NAME="prueba.cpp" CONFIG_NAME="prueba.cpp">
-      <option name="sourceFile" value="prueba.cpp" />
+    <configuration name="ejemplo_fila.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Estructura de datos" TARGET_NAME="ejemplo_fila.cpp" CONFIG_NAME="ejemplo_fila.cpp">
+      <option name="sourceFile" value="ejemplo_fila.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ejemplo_pila.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Estructura de datos" TARGET_NAME="ejemplo_pila.cpp" CONFIG_NAME="ejemplo_pila.cpp">
+      <option name="sourceFile" value="ejemplo_pila.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ejercicio3.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Estructura de datos" TARGET_NAME="ejercicio3.cpp" CONFIG_NAME="ejercicio3.cpp">
+      <option name="sourceFile" value="ejercicio3.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="estructuras.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Estructura de datos" TARGET_NAME="estructuras.cpp" CONFIG_NAME="estructuras.cpp">
+      <option name="sourceFile" value="estructuras.cpp" />
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="C/C++ File.ejercicio1.cpp" />
-        <item itemvalue="C/C++ File.prueba.cpp" />
+        <item itemvalue="C/C++ File.estructuras.cpp" />
+        <item itemvalue="C/C++ File.ejercicio3.cpp" />
+        <item itemvalue="C/C++ File.ejemplo_fila.cpp" />
+        <item itemvalue="C/C++ File.ejemplo_pila.cpp" />
+        <item itemvalue="C/C++ File.ejemplo_arreglo.cpp" />
       </list>
     </recent_temporary>
   </component>
@@ -125,6 +154,14 @@
       <workItem from="1744077923644" duration="238000" />
       <workItem from="1744078173295" duration="111000" />
       <workItem from="1744078327987" duration="2754000" />
+      <workItem from="1744081137868" duration="54000" />
+      <workItem from="1744337220322" duration="3271000" />
+      <workItem from="1744492632717" duration="1408000" />
+      <workItem from="1744679450934" duration="3666000" />
+      <workItem from="1745547309051" duration="207000" />
+      <workItem from="1745547547861" duration="296000" />
+      <workItem from="1745547872054" duration="2546000" />
+      <workItem from="1745607952269" duration="773000" />
     </task>
     <task id="LOCAL-00001" summary="CLion config">
       <option name="closed" value="true" />
@@ -150,7 +187,47 @@
       <option name="project" value="LOCAL" />
       <updated>1744080189657</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ejercicio de listas">
+      <option name="closed" value="true" />
+      <created>1744081161286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1744081161286</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Ejercicio de nodos">
+      <option name="closed" value="true" />
+      <created>1744340640987</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744340640987</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ejemplos de la actividad autonoma 1">
+      <option name="closed" value="true" />
+      <created>1744494026214</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744494026214</updated>
+    </task>
+    <task id="LOCAL-00007" summary="ejercicio 3">
+      <option name="closed" value="true" />
+      <created>1745549962298</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745549962298</updated>
+    </task>
+    <task id="LOCAL-00008" summary="tutoria dia jueves 24 de abril">
+      <option name="closed" value="true" />
+      <created>1745549995043</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1745549995043</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +252,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CLion config" />
     <MESSAGE value="Ejercicio de listas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicio de listas" />
+    <MESSAGE value="Ejercicio de nodos" />
+    <MESSAGE value="Ejemplos de la actividad autonoma 1" />
+    <MESSAGE value="ejercicio 3" />
+    <MESSAGE value="tutoria dia jueves 24 de abril" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutoria dia jueves 24 de abril" />
   </component>
 </project>

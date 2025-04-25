@@ -17,7 +17,6 @@ int contarVocales(const char cadena[]) {
         }
     }
     return cont; //Devolvemos el contador
-    return cont; //Devolvemos el contador
 }
 
 //Funcion principal

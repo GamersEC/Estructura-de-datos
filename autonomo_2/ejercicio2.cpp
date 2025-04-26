@@ -24,6 +24,7 @@ void ordenarPromedio(estudiante estudiantes[], int n) {
     }
 }
 
+
 //Función principal
 int main() {
 

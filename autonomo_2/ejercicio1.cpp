@@ -8,11 +8,24 @@
 using namespace std;
 
 //Funcion para contar las vocales
-int contarVocales(const char cadena[]) {
+int contarVocales(const char cadena[], int& a, int& e, int& i, int& o, int& u) {
     int cont = 0;
-    for (int i = 0; cadena[i] != '\0'; i++) {
-        char vocal = tolower(cadena[i]); //Convertimos a minusculas
-        if (vocal == 'a' || vocal == 'e' || vocal == 'i' || vocal == 'o' || vocal == 'u') {
+    for (int j = 0; cadena[j] != '\0'; j++) {
+        char vocal = tolower(cadena[j]); //Convertimos a minúsculas
+        if (vocal == 'a') {
+            a++;
+            cont++;
+        } else if (vocal == 'e') {
+            e++;
+            cont++;
+        } else if (vocal == 'i') {
+            i++;
+            cont++;
+        } else if (vocal == 'o') {
+            o++;
+            cont++;
+        } else if (vocal == 'u') {
+            u++;
             cont++;
         }
     }
@@ -33,9 +46,17 @@ int main() {
         cout << cadena[i];
     }
 
+    //Variables para contar cada vocal
+    int a = 0, e = 0, i = 0, o = 0, u = 0;
+
     //Contamos las vocales de la cadena
-    int numVocales = contarVocales(cadena);
-    cout << "\nNumero de vocales: " << numVocales << endl;
+    int numVocales = contarVocales(cadena, a, e, i, o, u);
+    cout << "\n\nNumero de vocales en total: " << numVocales << endl;
+    cout << "a: " << a << endl;
+    cout << "e: " << e << endl;
+    cout << "i: " << i << endl;
+    cout << "o: " << o << endl;
+    cout << "u: " << u << endl;
 
     return 0;
 }

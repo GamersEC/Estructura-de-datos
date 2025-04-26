@@ -11,7 +11,7 @@ struct estudiante {
     float promedio;
 };
 
-//Funcion de promedios en orden descendente
+//Función de promedios en orden descendente
 void ordenarPromedio(estudiante estudiantes[], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
@@ -24,7 +24,7 @@ void ordenarPromedio(estudiante estudiantes[], int n) {
     }
 }
 
-//Funcion principal
+//Función principal
 int main() {
 
     //Arreglo de 5 estudiantes

@@ -57,6 +57,6 @@ int main() {
     cout << "i: " << i << endl;
     cout << "o: " << o << endl;
     cout << "u: " << u << endl;
-
+    
     return 0;
 }
